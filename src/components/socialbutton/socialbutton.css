@@ -1,0 +1,28 @@
+.google-Image {
+  width: 63px;
+  height: 20px;
+}
+.google-button,
+.google-button:hover {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ccd3d9;
+  border-radius: 4px;
+  width: 175px;
+  height: 48px;
+}
+.microsoft-Image {
+  width: 160px;
+  height: 32px;
+}
+.microsoft-button,
+.microsoft-button:hover {
+  color: #fff;
+  background-color: #585352;
+  border-color: #585352;
+  width: 175px;
+  height: 48px;
+  margin-left: 17px;
+}
+.social-login {
+  margin: 51px 0px 24px 0px;
+}

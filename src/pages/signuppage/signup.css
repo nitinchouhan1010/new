@@ -1,0 +1,146 @@
+.signup .img-sec {
+  /* height: 100vh; */
+  padding: 0px;
+  background-color: #161a2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup .image {
+  width: 410px;
+  height: 340px;
+}
+
+.signup .input-title {
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #5a5f7d;
+  margin: 0px;
+}
+.signup .with-space .form-control {
+  background: #eff1f7;
+  border: 1px solid #d6ddf0;
+  height: 48px;
+  width: 178px;
+}
+.signup .no-space .form-control {
+  background: #eff1f7;
+  border: 1px solid #d6ddf0;
+  height: 48px;
+  width: 368px;
+}
+.signup .signup-btn {
+  margin-top: 10px;
+  background: #2763fe;
+  height: 48px;
+  font-weight: 500;
+  width: 368px;
+}
+
+.signup .content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup .blank-text {
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #448aff;
+  text-align: center;
+}
+.signup .f-password {
+  text-align: center;
+  font-size: 16px;
+  color: #272b41;
+  margin: 47px 0px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.signup .nt-register-txt {
+  font-size: 16px;
+  color: #5a5f7d;
+  text-align: center;
+}
+.signup .signup {
+  font-weight: 500;
+  color: #2763fe;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.signup .sp-signup {
+  text-align: center;
+  color: #5a5f7d;
+  margin-top: 6px;
+}
+.signup .sp-signup span {
+  padding: 4px 18px 8px 18px;
+  font-weight: 500;
+}
+.signup .or {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.signup .input-spacing {
+  margin-bottom: 22px !important;
+}
+.signup .with-space .input-spacing {
+  margin-bottom: 22px !important;
+  margin-left: 14px !important;
+}
+.signup .form-check-label {
+  text-align: left;
+  font-size: 14px;
+  color: #5a5f7d;
+  width: 309px;
+  margin-bottom: 44px;
+}
+.signup .check-box {
+  margin-top: 26px;
+}
+
+.terms {
+  width: 90%;
+  font-size: 12px;
+  color: #5a5f7d;
+  text-align: center;
+}
+.terms span {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #272b41;
+}
+
+.project-txt {
+  color: #f5f5f5cc;
+  font-size: 34px;
+  margin-bottom: 57px;
+  display: block;
+}
+.create-hire-txt {
+  font-size: 60px;
+  color: #f5f5f5cc;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  .signup .img-sec {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .signup .content-center {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 3000px) {
+  .signup .img-sec {
+    height: 100vh !important;
+  }
+}
